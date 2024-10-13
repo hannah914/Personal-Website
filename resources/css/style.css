@@ -267,7 +267,7 @@ header{
         width: auto;
     }
     .home-img img{
-        max-width: 350px;
+        max-width: 250px;
         width: 100%;
         height: auto;
     }
@@ -308,7 +308,6 @@ header{
         display: flex;
         align-items: center;
         cursor: pointer;
-        margin-left: 40%;
     }
     #menu-icon{
         font-size: 28px;
@@ -323,14 +322,17 @@ header{
         --p-font: 15px;
         transition: .2s;
     }
-    .btn{
-        padding: 9px 28px;
-    }
     #menu-icon{
         margin-left: auto;
     }
     .home-section{
         max-width: auto;
+    }
+    .btn{
+        padding: 9px 15px;
+    }
+    .links{
+        display: inline-block;
     }
     .math-award-img {
         max-width: 250px;
